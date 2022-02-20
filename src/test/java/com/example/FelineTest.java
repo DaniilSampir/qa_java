@@ -49,4 +49,9 @@ public class FelineTest {
         assertEquals(feline.getFood(),actualList);
     }
 
+    @Test
+    public void testFelineEatMeat_EqualsFoodType() throws Exception {
+        List<String> actualList = List.of("Животные", "Птицы", "Рыба");
+        assertEquals(feline.eatMeat(),actualList);
+    }
 }

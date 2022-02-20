@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f384cff-5bc1-4afc-acdb-9bf555d19994" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AnimalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/CatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/CatTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/FelineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionHasManeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionHasManeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionWithMoksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionWithMoksTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Animal.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Animal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Animal.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Animal.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Cat.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.java.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/Feline.java.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.example/index.source.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/com.example/index.source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +54,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="25C22K3DpmBR6PCwZIchJ9S7CMM" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,7 +91,37 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FelineTest">
+  <component name="RunManager" selected="JUnit.AlexTest">
+    <configuration name="AlexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AnimalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -122,36 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LionParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LionParametersTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AlexTest" />
         <item itemvalue="JUnit.FelineTest" />
+        <item itemvalue="JUnit.AnimalTest" />
         <item itemvalue="JUnit.CatTest" />
         <item itemvalue="JUnit.LionHasManeTest" />
-        <item itemvalue="JUnit.LionParametersTest" />
-        <item itemvalue="JUnit.LionTest" />
       </list>
     </recent_temporary>
   </component>
