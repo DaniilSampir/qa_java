@@ -46,7 +46,7 @@ public class AnimalTest {
     @Test
     public void testAnimalGetFood_EqualsRightFoodType() throws Exception {
         Animal animal = new Animal();
-        assertEquals(animal.getFood(this.animalKind), this.kindFood);
+        assertEquals(this.kindFood,animal.getFood(this.animalKind));
     }
 
     @Rule
