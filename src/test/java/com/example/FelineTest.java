@@ -18,7 +18,7 @@ public class FelineTest {
     }
 
     @Test
-    public void testGetKittens_EqualsOneKitten() {
+    public void testFelineGetKittens_EqualsOneKitten() {
         assertEquals(feline.getKittens(),1);
     }
 
@@ -34,17 +34,17 @@ public class FelineTest {
     }
 
     @Test
-    public void testGetKittens_EqualsKittensCount() {
+    public void testFelineGetKittens_EqualsKittensCount() {
         assertEquals(kittensCount, feline.getKittens(kittensCount));
     }
 
     @Test
-    public void testGetFamily_EqualsKittensFamily(){
+    public void testFelineGetFamily_EqualsKittensFamily(){
         assertEquals(feline.getFamily(),"Кошачьи");
     }
 
     @Test
-    public void testGetFood_EqualsFoodType() throws Exception {
+    public void testFelineGetFood_EqualsFoodType() throws Exception {
         List<String> actualList = List.of("Животные", "Птицы", "Рыба");
         assertEquals(feline.getFood(),actualList);
     }

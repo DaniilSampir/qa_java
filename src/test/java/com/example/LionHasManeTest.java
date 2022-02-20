@@ -30,7 +30,7 @@ public class LionHasManeTest {
     }
 
     @Test
-    public void testHasMane() throws Exception {
+    public void testHasMane_EqualsRightLionMane() throws Exception {
         Lion lion = new Lion(this.sexLion);
         boolean actualHasMane = lion.doesHaveMane();
         assertEquals(expectedHasMane, actualHasMane);
@@ -40,7 +40,7 @@ public class LionHasManeTest {
     public ExpectedException thrown = ExpectedException.none();
 
     @Test
-    public void testShouldExpectedExeption() throws Exception {
+    public void testHasMane_ExpectExceptionMessage() throws Exception {
         thrown.expect(Exception.class);
         thrown.expectMessage("Используйте допустимые значения пола животного - самец или самка");
         Lion lion = new Lion("asdasdasd");
