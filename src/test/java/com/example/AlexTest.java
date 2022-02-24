@@ -14,23 +14,23 @@ public class AlexTest {
     }
 
     @Test
-    public void testGetAlexSex_ShuldReturnTrue(){
+    public void testGetAlexSexShuldReturnTrue(){
     assertEquals(alex.hasMane,true);
     }
 
     @Test
-    public void testGetPlaceOfLiving_ShouldReturnLivingPlace() {
+    public void testGetPlaceOfLivingShouldReturnLivingPlace() {
         String actual = "Нью-Йоркский зоопарк";
         assertEquals(alex.getPlaceOfLiving(),actual);
     }
 
     @Test
-    public void testGetFriends_ShouldReturnAlexFriends(){
+    public void testGetFriendsShouldReturnAlexFriends(){
         List<String> actual = List.of("Марти, Глория, Мелман");
         assertEquals(alex.getFriends(),actual);
     }
     @Test
-    public void testGetKittens_ShouldReturnZero(){
+    public void testGetKittensShouldReturnZero(){
         int actual = 0;
         assertEquals(alex.getKittens(),actual);
     }
