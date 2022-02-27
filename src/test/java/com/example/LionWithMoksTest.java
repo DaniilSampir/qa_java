@@ -18,17 +18,17 @@ public class LionWithMoksTest {
     IFeline feline;
 
     @Test
-    public void getKittensWithMoksTest() throws Exception {
+    public void testLionGetKittensEqualsOneLion() throws Exception {
         Lion lion = new Lion(feline);
         Mockito.when(feline.getKittens()).thenReturn(1);
         assertEquals(lion.getKittens(),1);
     }
 
     @Test
-    public void getFoodWithMoksTest() throws Exception{
+    public void testLionGetFoodEqualsRightFoodType() throws Exception{
         Lion lion = new Lion(feline);
         Mockito.when(feline.getFood()).thenReturn(List.of("Животные", "Птицы", "Рыба"));
-        List<String> actualList = lion.getFood();
-        assertEquals(List.of("Животные", "Птицы", "Рыба"),actualList);
+        List<String> expectedList = lion.getFood();
+        assertEquals(expectedList,List.of("Животные", "Птицы", "Рыба"));
     }
 }
