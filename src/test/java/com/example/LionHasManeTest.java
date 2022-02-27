@@ -1,8 +1,6 @@
 package com.example;
 
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
@@ -30,19 +28,9 @@ public class LionHasManeTest {
     }
 
     @Test
-    public void testShouldHasMane() throws Exception {
+    public void testHasManeEqualsRightLionMane() throws Exception {
         Lion lion = new Lion(this.sexLion);
         boolean actualHasMane = lion.doesHaveMane();
         assertEquals(expectedHasMane, actualHasMane);
-    }
-
-    @Rule
-    public ExpectedException thrown = ExpectedException.none();
-
-    @Test
-    public void testShouldExpectedExeption() throws Exception {
-        thrown.expect(Exception.class);
-        thrown.expectMessage("Используйте допустимые значения пола животного - самец или самка");
-        Lion lion = new Lion("выфвфыв");
     }
 }
